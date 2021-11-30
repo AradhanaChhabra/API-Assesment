@@ -30,7 +30,7 @@ function App() {
 
   const validateOTP = async(value) => {
     const otpValue = "" + value;
-    axios.post('https://bmkauth.herokuapp.com/api/v1/user/otp/validate',
+    axios.post('/api/v1/user/otp/validate',
       {
         "otp": otpValue,
         "deviceId": "efgh"

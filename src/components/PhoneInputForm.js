@@ -39,7 +39,7 @@ const PhoneInputForm = (props) => {
         
         
     axios.post(
-      'https://bmkauth.herokuapp.com/api/v1/user/auth',
+      '/api/v1/user/auth',
       {
         phone: phoneNo
       },
