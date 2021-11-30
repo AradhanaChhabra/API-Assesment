@@ -34,9 +34,12 @@ const PhoneInputForm = (props) => {
         // else {
         //     console.log("error");
         // }
+    
+        // "proxy":"https://bmkauth.herokuapp.com",
+        
         
     axios.post(
-      '/api/v1/user/auth',
+      'https://bmkauth.herokuapp.com/api/v1/user/auth',
       {
         phone: phoneNo
       },
