@@ -66,6 +66,7 @@ const PhoneInputForm = (props) => {
                         ref={phoneRef}
                         maxLength="10"
                         pattern="[1-9]{1}[0-9]{9}"
+                        onChange={telValidator}
                         placeholder="Enter the Phone No."
                     ></input>
                 </div>
